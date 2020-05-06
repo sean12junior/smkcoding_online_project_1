@@ -48,7 +48,7 @@
                     android:text="Nama"/>
 
                 <TextView
-                    android:id="@+id/Name"
+                    android:id="@+id/NameU"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -69,7 +69,7 @@
                     android:text="Jenis Kelamin"/>
 
                 <TextView
-                    android:id="@+id/Gender"
+                    android:id="@+id/GenderU"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -90,7 +90,7 @@
                     android:text="Email"/>
 
                 <TextView
-                    android:id="@+id/Email"
+                    android:id="@+id/EmailU"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -111,7 +111,7 @@
                     android:text="No. Telpon"/>
 
                 <TextView
-                    android:id="@+id/Telpon"
+                    android:id="@+id/TelponU"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -132,7 +132,7 @@
                     android:text="Alamat"/>
 
                 <TextView
-                    android:id="@+id/Alamat"
+                    android:id="@+id/AlamatU"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -151,6 +151,12 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:text="Telepon"/>
+            <Button
+                android:id="@+id/About"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="About"/>
 
         </LinearLayout>
     </RelativeLayout>
